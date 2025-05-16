@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+
+
+
+<body>
+    <header>
+        <br>
+        <div class="row">
+           <div class="Top"> 
+            <div class="col-sm-6">        
+                
+                <h2 align="center">基督教香港潮人生命堂</h2>
+                <h4 align="center">THE HONG KONG SWATOW CHRISTIAN CHURCH</h4>
+            </div>
+
+            <div class="col-sm-6">
+                <button id="changeColorBtn">切換日夜模式</button>
+                <script>
+            
+                    var webpage = document.querySelector('body');
+                    var btn = document.querySelector('#changeColorBtn');
+        
+                    const COLOR_PRESETS = ['#9ac0d6', '#c6e6f9', '#5c789e', '#314f76'];
+                    let currentIndex = 0;
+
+                    btn.addEventListener('click', function() {
+                    currentIndex = (currentIndex + 1) % COLOR_PRESETS.length;
+                    webpage.style.backgroundColor = COLOR_PRESETS[currentIndex];
+                    });
+                </script>
+    
+   
+            </div>
+           </div> 
+        </div>
+
+
+        
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand">
+                <ul class="nav">
+                    <li class="nav-item"><a href="index.html">主頁</a></li>
+                    <li class="nav-item"><a href="info.html">教會資料</a></li>
+                    <li class="nav-item"><a href="department.html">教會部門</a></li>
+                    <li class="nav-item"><a href="calender.html">行事曆</a></li>
+                    <li class="nav-item"><a href="timetable.html">聚會時間表</a></li>
+                    <li class="nav-item1"><a href="files.html">週刊/月刊</a></li>
+                    <li class="nav-item"><a href="ask.html">查詢</a></li>
+                    <li class="nav-item"><a href="contact.html">聯絡我們</a></li>
+                    <div class="box"></div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+  <section id="banner-photo">
+        <img src="church_sloganF.png" alt="church photo" class="Title" style="width:50%">>
+    </section>
+
+    <section id="space-line">
+        <div class="container">
+            <br>
+            <br>
+        </div>
+    </section>
+
+
+    
+
+    <body>
+       
+         <center>
+            <ul class="serch">
+                    <li>
+                        <input type="radio" name='serch'  id="marry">
+                        <label for="marry" id="label-marry"><strong>查詢</strong></label>
+
+                        <div class="content">
+
+                            <p>
+                                電話: 2524 7914
+                                <br>
+                                傳真: 2537 1942
+                                <br>
+                                WhatsApp: 5624 0153
+                                <br>
+                                電郵: mail@hkswatow.org.hk      
+                            </p>
+                                 
+                        </div>
+                    <li>
+                        <input type="radio" name='serch'  id="caxun">
+                        <label for="caxun" id="label-caxun"><strong>婚禮事宜</strong></label>
+
+                         <div class="container">
+                        <div class="text-content">
+                            <p><strong>（甲） 一般原則</strong></p>
+                            <ol>
+                                <li>擬結婚男女雙方必須在申請時為已受洗基督徒，（如非本堂會友，須有所屬教會的證明書）。凡離婚者或重婚者，均不得申請借用。</li>
+                                <li>借用本堂舉行婚禮，須有本港婚姻註冊署許可證，並由本堂牧師主持婚禮。</li>
+                                <li>借用本堂舉行婚禮，須先具函申請，並與本堂牧師或堂會主席商洽，編定日期及時間。</li>
+                                <li>舉行婚禮後，牧師即以結婚證明書乙份交結婚人，並將其副本轉呈婚姻註冊署備案。</li>
+                                <li>在本堂舉行婚禮時，祇可使用禮堂內已有之鋼琴／電琴或／及管風琴（電琴或管風琴琴師由本堂安排）。</li>
+                            </ol>
+                            
+                            <p><strong>（乙） 舉行婚禮時應注意事項</strong></p>
+                            <ol>
+                                <li>結婚人須嚴守約定之時間舉行婚禮。</li>
+                                <li>婚禮之佈置、音響及攝錄活動，須接受本堂主禮牧師指導。</li>
+                                <li>不得在大堂內隨意拋擲紙碎、雜物及移動所有擺設。</li>
+                            </ol>
+                            
+                            <p><strong>（丙） 應繳付之費用</strong></p>
+                            <ol>
+                                <li>本堂會友<br />
+                                    （1） 自由奉獻感恩捐。<br />
+                                    （2） 琴師車馬費 ： <br>
+                                    鋼琴 &nbsp;&nbsp; HK$400<br>
+                                    電風琴 HK$700<br>
+                                    管風琴 HK$1,200</li>
+                                <li>非本堂會友 <br>
+                                    （*凡潮人生命堂友堂會友，堂費減半）<br>
+                                    （1） 大堂堂費HK$12,000<br />
+                                    （以三小時計算）。<br />
+                                    （2） 副堂堂費HK$5,000<br />
+                                    （如有借用，以四小時計算）。<br />
+                                    （3）琴師車馬費 ： <br>
+                                    鋼琴 &nbsp;&nbsp; HK$400<br>
+                                    電風琴 HK$700<br>
+                                    管風琴 HK$1,200</li>
+                            </ol>
+                            
+                            <p><em>備註：申請被接納者，須於通知後一個月內將費用及所需證件交與本堂辦事處作實。 逾期者作放棄論。（費用交妥作實，概不退回）</em></p>
+                            
+                            <p><strong><a href="https://www.hkswatow.org.hk/doc/WeddingApplicationForm.pdf" target="_blank">申請表下載</a></strong></p>
+                            
+                        </div>
+                       
+        
+        <div class="image-gallery">
+            <img src="dalitang.jpg" alt="大禮堂" />
+            <p>大禮堂</p>
+            
+            <img src="dalitanhongditan.jpg" alt="大禮堂紅地毯" />
+            <p>大禮堂紅地毯</p>
+            
+            <img src="paise.jpg" alt="從閣樓拍攝" />
+            <p>從閣樓拍攝</p>
+            
+            <img src="dalitanhegelou.jpg" alt="大禮堂及閣樓" />
+            <p>大禮堂及閣樓</p>
+            
+            <img src="futan.jpg" alt="副堂" />
+            <p>副堂</p>
+            
+            <img src="waimao.jpg" alt="教堂外貌" />
+            <p>教堂外貌</p>
+        </div>
+    </div>
+
+    
+        </center>
+</body>
+
+
+
+</html>
